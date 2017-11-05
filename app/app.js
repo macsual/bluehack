@@ -20,6 +20,12 @@
     .when('/assessment', {
       templateUrl : 'assessment.html'
     })
+    .when('/candidates', {
+      templateUrl : 'candidates.html'
+    })
+    .when('/results', {
+      templateUrl : 'results.html'
+    })
     .otherwise({
       templateUrl : '404.html'
     });
