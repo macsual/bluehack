@@ -3,10 +3,22 @@
   learnAiApp.config(function($routeProvider) {
     $routeProvider
     .when('/', {
-        templateUrl : 'landing.html'
+      templateUrl : 'landing.html'
     })
     .when('/profile', {
-        templateUrl : 'profile.html'
+      templateUrl : 'profile.html'
+    })
+    .when('/home', {
+      templateUrl : 'home.html'
+    })
+    .when('/learn', {
+      templateUrl : 'learn.html'
+    })
+    .when('/analytics', {
+      templateUrl : 'analytics.html'
+    })
+    .when('/assessment', {
+      templateUrl : 'assessment.html'
     })
     .otherwise({
       templateUrl : '404.html'
